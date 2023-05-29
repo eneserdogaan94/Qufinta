@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
 import { GoogleMap, LoadScript, MarkerF } from '@react-google-maps/api';
+import { mapStyles } from '../assets/mapStyle.js';
 
 const containerStyle = {
   width: '400px',
-  height: '400px'
+  height: '400px',
+};
+const options = {
+  styles: mapStyles
 };
 
 const center = {
@@ -26,6 +30,7 @@ class MyComponents extends Component {
           mapContainerStyle={containerStyle}
           center={center}
           zoom={14}
+          options={options}
         >
           <MarkerF
           onClick={showInMapClicked}
