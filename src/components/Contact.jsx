@@ -1,4 +1,5 @@
 import React from "react";
+import MapComponent from "../components/MapComponent"
 
 
 const Contact = () => {
@@ -33,7 +34,7 @@ const Contact = () => {
         </div>
 
         <div className=" flex justify-center items-center">
-         
+         <MapComponent/>
         </div>
       </div>
     </div>
