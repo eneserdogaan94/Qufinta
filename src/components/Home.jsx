@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
+      className="h-screen w-full bg-[#00bf62]"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
@@ -20,12 +20,12 @@ const Home = () => {
             We establish your company, keep your financials and advise whenever.
           </p>
 
-          <div>
+          <div  className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-green-to-r from-yellow-500 to-lime-500 cursor-pointer">
             <Link
               to="WhyChooseUs"
               smooth
               duration={500}
-              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-white-500 to-black-500 cursor-pointer"
+              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-green-to-r from-yellow-500 to-lime-500 cursor-pointer"
             >
               Why choose us?
               <span className="group-hover:rotate-90 duration-300">

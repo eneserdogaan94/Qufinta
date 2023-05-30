@@ -2,7 +2,7 @@ export const mapStyles = [
   {
     stylers: [
       {
-        hue: '#2c3e50',
+        hue: '#00bf62',
       },
       {
         saturation: 250,

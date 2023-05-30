@@ -7,17 +7,17 @@ const Services = () => {
   ];
   return (
     <div
-      name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full md:w-auto"
+      name="services"
+      className="bg-[#00bf62] w-full md:w-auto"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
-          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
+          <p className="text-4xl font-bold border-b-4 border-text-white p-2 inline">
             Services
           </p>
           <p className="py-6">
 
-            <ol class="space-y-4 text-gray-500 list-decimal list-inside dark:text-gray-400">
+            <ol class="space-y-4 text-white list-decimal list-inside dark:text-white">
               <li className="text-white">
                 Accounting Services in America (1 year)
                 <ul class="pl-5 mt-2 space-y-1 list-disc list-inside text-white">
