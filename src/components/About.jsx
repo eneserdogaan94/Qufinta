@@ -14,20 +14,20 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-        Bookkeeping, Advisory and Services
-        Your time is more valuable...
-        Growing your business, serving your customers.
+          Bookkeeping, Advisory and Services
+          Your time is more valuable...
+          Growing your business, serving your customers.
 
         </p>
 
         <br />
 
         <p className="text-xl">
-        You are building a beautiful business for success.
-        You want to focus on revenue generation, content creation... not bookkeeping or not important calendars in your state or the USA, not special documents.
-        You don't want to get lost not knowing your numbers, important calendars and 
-        You may need expert advice, opinion for your online business financials.
-        Don't risk your business. GET EXPERT HELP.
+          You are building a beautiful business for success.
+          You want to focus on revenue generation, content creation... not bookkeeping or not important calendars in your state or the USA, not special documents.
+          You don't want to get lost not knowing your numbers, important calendars and
+          You may need expert advice, opinion for your online business financials.
+          Don't risk your business. GET EXPERT HELP.
 
         </p>
       </div>

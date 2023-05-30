@@ -9,7 +9,7 @@ const SocialLinks = () => {
       id: 1,
       child: (
         <>
-           Instagram <FaInstagram size={30} />
+          Instagram <FaInstagram size={30} />
         </>
       ),
       href: "https://www.instagram.com/qufinta/",
