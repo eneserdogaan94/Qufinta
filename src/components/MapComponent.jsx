@@ -18,7 +18,7 @@ const onLoad = (marker) => {
   console.log("marker: ", marker);
 };
 const showInMapClicked = () => {
-  window.open("https://www.google.com/maps/dir//40.929943,-74.068959/@40.929943,-74.0711477,17z/data=!4m8!1m5!3m4!2zNDDCsDU1JzQ3LjgiTiA3NMKwMDQnMDguMyJX!8m2!3d40.929943!4d-74.068959!4m1!3e2?entry=ttu" );
+  window.open("https://www.google.com/maps/dir//40.929943,-74.068959/@40.929943,-74.0711477,17z/data=!4m8!1m5!3m4!2zNDDCsDU1JzQ3LjgiTiA3NMKwMDQnMDguMyJX!8m2!3d40.929943!4d-74.068959!4m1!3e2?entry=ttu");
 };
 class MyComponents extends Component {
   render() {
@@ -33,8 +33,8 @@ class MyComponents extends Component {
           options={options}
         >
           <MarkerF
-          onClick={showInMapClicked}
-          onLoad={onLoad} position={center}
+            onClick={showInMapClicked}
+            onLoad={onLoad} position={center}
           >
 
           </MarkerF>
