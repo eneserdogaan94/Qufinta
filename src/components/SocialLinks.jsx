@@ -1,7 +1,6 @@
 import React from "react";
-import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const SocialLinks = () => {
   const links = [
@@ -9,7 +8,7 @@ const SocialLinks = () => {
       id: 1,
       child: (
         <>
-           Instagram <FaInstagram size={30} />
+          Instagram <FaInstagram size={30} />
         </>
       ),
       href: "https://www.instagram.com/qufinta/?igshid=YmMyMTA2M2Y%3D",
