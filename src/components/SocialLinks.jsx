@@ -12,7 +12,7 @@ const SocialLinks = () => {
            Instagram <FaInstagram size={30} />
         </>
       ),
-      href: "https://www.instagram.com/qufinta/",
+      href: "https://www.instagram.com/qufinta/?igshid=YmMyMTA2M2Y%3D",
       style: "rounded-tr-md",
     },
     {
