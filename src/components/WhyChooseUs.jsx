@@ -12,8 +12,15 @@ const WhyChooseUs = () => {
       className="bg-[#00bf62] w-full text-white w-full md:w-auto"
     >
 
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div className="pb-8">
+      <div className="flex flex-col justify-center grid grid-cols-2 gap-4 max-w-screen-lg mx-auto h-auto">
+      <div className="flex justify-center items-center">
+            <img
+              src={gif}
+              alt="Logo"
+              className=" flex justify-center items-center rounded-2xl mx-auto w-2/3 md:w-full"
+            />
+          </div>
+          <div>
           <p className="text-4xl font-bold inline border-b-4 border-white">
             Why Choose Us
           </p>
@@ -28,16 +35,10 @@ const WhyChooseUs = () => {
                 <li>Important Calendar Tracking for Each Company </li>
               </ul>
             </li>
-            <img
-              src={gif}
-              alt="Logo"
-              className="rounded-2xl mx-auto w-2/3 md:w-full"
-            />
-
           </p>
+          </div>
         </div>
       </div>
-    </div>
   );
 };
 
